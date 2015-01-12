@@ -15,7 +15,7 @@ html {
 
 .hand {
     width: 14px;
-    left: 150px;
+    left: 144px;
     position: absolute;
     bottom: 150px;
 }
@@ -37,4 +37,3 @@ html {
 .hand minute {
     bottom: 100px;
     left: 100px;
-}
