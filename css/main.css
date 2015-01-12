@@ -37,3 +37,14 @@ html {
 .hand minute {
     bottom: 100px;
     left: 100px;
+}
+
+.clock-face:hover .hand-hour {
+    transform: rotate(360deg);
+    transition: all 1000ms linear;
+}
+
+.clock-face:hover .hand-minute {
+    transform: rotate(360deg);
+    transition: all 3000ms linear;
+}
