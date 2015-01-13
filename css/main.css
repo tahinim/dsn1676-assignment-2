@@ -60,6 +60,19 @@ html {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    color: white;
+    transition: all 1000ms linear;
+    
+}
+
+.btn-forwards:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-backwards:hover {
+    background-color: white;
+    color: black;
 }
 
 .btn-backwards {
@@ -72,5 +85,9 @@ html {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    color: white;
+    transition: all 1000ms linear;
 
 }
+
+
