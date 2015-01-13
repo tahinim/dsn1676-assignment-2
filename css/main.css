@@ -31,19 +31,22 @@ html {
 
 .hand-hour {
     transform-origin: center bottom;
+    transition: all 6000ms linear;
 }
 
 .hand-minute {
  
     transform-origin: center bottom;
+    transition: all 6000ms linear; 
 }
 
-.clock-face:hover .hand-hour {
+.clock-face:target .hand-hour {
     transform: rotate(360deg);
-    transition: all 6000ms linear;
+    
 }
 
-.clock-face:hover .hand-minute {
+.clock-face:target .hand-minute {
     transform: rotate(4320deg);
-    transition: all 6000ms linear;   
+      
 }
+
