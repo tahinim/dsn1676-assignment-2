@@ -50,3 +50,17 @@ html {
       
 }
 
+.btn-forwards {
+    background-color: green;
+    border-radius: 50%;
+    width: 6em;
+    line-height: 6em;
+}
+
+.btn-backwards {
+    background-color: red;
+    border-radius: 50%;
+    width:10px;
+    width: 6em;
+    line-height: 6em;
+
