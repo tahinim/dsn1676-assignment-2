@@ -3,7 +3,7 @@ html {
 }
 
 .main {
-    
+    text-align: center;
 }
 
 .clock-face {
@@ -11,6 +11,7 @@ html {
     height: 300px;
     position: relative;
     background-image: url(../images/clock-face.svg);
+    margin: 4em auto;
 }
 
 .hand {
@@ -55,6 +56,10 @@ html {
     border-radius: 50%;
     width: 6em;
     line-height: 6em;
+    padding: 1em;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-backwards {
@@ -63,4 +68,9 @@ html {
     width:10px;
     width: 6em;
     line-height: 6em;
+    padding: 1em;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 
+}
